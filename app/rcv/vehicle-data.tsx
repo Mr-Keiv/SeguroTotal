@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
   fixedHeader: {
     paddingHorizontal: 20,
     paddingTop: 10,
-    marginTop: -60,
+    marginTop: -30,
 
     backgroundColor: 'transparent',
   },

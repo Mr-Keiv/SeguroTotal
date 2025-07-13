@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
   headerContainer: {
     position: 'relative',
     paddingBottom: 20,
-    marginTop: -70
+    marginTop: -30
   },
   backgroundShape: {
     position: 'absolute',

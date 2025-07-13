@@ -76,7 +76,7 @@ export default function DriverDataScreen() {
         <View style={styles.fixedHeader}>
           <View style={styles.header}>
             <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-              <ArrowLeftSVG width={24} height={24}/>
+              <ArrowLeftSVG width={24} height={24} />
             </TouchableOpacity>
             <Text style={titleStyle}>Datos del Conductor</Text>
           </View>
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
   fixedHeader: {
     paddingHorizontal: 20,
     paddingTop: 10,
-        marginTop: -60,
+    marginTop: -30,
 
   },
   header: {
