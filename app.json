@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "insure-app",
+    "name": "SuguroTotal",
     "slug": "insure-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#00D09E"
       },
       "edgeToEdgeEnabled": true
     },
@@ -28,15 +28,28 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/adaptive-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#00D09E"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "42d8ba72-059a-48a2-bcf7-e43a112c8ce0"
+      }
+    },
+    "owner": "disglobal",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/42d8ba72-059a-48a2-bcf7-e43a112c8ce0"
     }
   }
 }
